@@ -101,7 +101,7 @@ section {
   padding: 2rem 0 1rem;
 }
 .background {
-  background-image: url(/img/background.jpg);
+  background-image: url(../img/background.jpg);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -148,24 +148,22 @@ section {
   align-items: center;
   padding: 50px;
 }
-.list-products li{
+.list-products li {
   margin: 10px;
-
 }
-.list-products li a{
+.list-products li a {
   color: #000;
   letter-spacing: 2px;
   position: relative;
   font-weight: 500;
 }
-.list-products a{
+.list-products a {
   display: inline-block;
   position: relative;
   color: #cc8800;
-
 }
-.list-products  a::after{
-  content: '';
+.list-products a::after {
+  content: "";
   position: absolute;
   width: 100%;
   transform: scaleX(0);
@@ -230,7 +228,7 @@ section {
   padding: 15px;
   position: absolute;
   right: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   display: inline-block;
   align-items: center;
   margin-right: -50px;
@@ -242,7 +240,7 @@ section {
   background: #ffaa00;
   transition: 0.5s ease;
 }
-.btn:hover{
+.btn:hover {
   background: #ffdb4d;
   color: #000000;
 }
